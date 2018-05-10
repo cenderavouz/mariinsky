@@ -6,7 +6,7 @@ print(r) //5
 
 --test context
 var k2 = new Kirov(1 , 1);
-var c2 = k1.ctx(3);
+var c2 = k2.ctx(3);
 print(c2) //15
 
 --test context_
