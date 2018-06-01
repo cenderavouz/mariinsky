@@ -65,11 +65,13 @@ function jasmineRhino(testScript, testSpec) {
         }
     }
 
-    message(specs + " specs, " + errors.length + " errors"); //
+    var report = [specs, " specs, ", errors.length, " errors", '\n'].join(''); //        
     for (var k in errors) {
         var error = errors[k];
-        message(error.title); //
+        report += [error.title, '\n'].join(''); //
         for (var l in error.errors)
-            message("  " + error.errors[l]); //
+            report += ["  " , error.errors[l], '\n'].join(''); //
     }
+    
+    return report;        
 }
