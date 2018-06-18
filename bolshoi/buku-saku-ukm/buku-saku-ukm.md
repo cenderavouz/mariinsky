@@ -102,7 +102,7 @@ Selain membuat sendiri, anda bisa memasang templat-jadi buatan pengguna lain. Ik
 - Pilih Tambah Koleksi
 - Pilih Katalog Online
 - Masukkan kata kunci pada kolom pencarian.
-  contoh: 'Kas Harian'
+  contoh: 'Kas Sederhana'
 - Pilih Pasang
 - Ketuk 'tombol-centang' (sudut kiri atas)
  ```
